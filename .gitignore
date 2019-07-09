@@ -2,6 +2,9 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+./Fancy\ Audio\ Player/Tusken_Raiders
+./Fancy\ Audio\ Player/AFX
+
 ## Build generated
 build/
 DerivedData/
