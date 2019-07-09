@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1F47451E36FA8C00C9E57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F47441E36FA8C00C9E57C /* AppDelegate.swift */; };
+		3B1F47471E36FA8C00C9E57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F47461E36FA8C00C9E57C /* ViewController.swift */; };
+		3B1F474A1E36FA8C00C9E57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1F47481E36FA8C00C9E57C /* Main.storyboard */; };
+		3B1F474C1E36FA8C00C9E57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1F474B1E36FA8C00C9E57C /* Assets.xcassets */; };
+		3B1F474F1E36FA8C00C9E57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1F474D1E36FA8C00C9E57C /* LaunchScreen.storyboard */; };
+		3B1F47571E37032B00C9E57C /* AudioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F47561E37032B00C9E57C /* AudioItem.swift */; };
+		3B4B5CC91E3830F100517F1A /* 182 Lobot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAA1E3830F100517F1A /* 182 Lobot.mp3 */; };
+		3B4B5CCA1E3830F100517F1A /* 183 Blolp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAB1E3830F100517F1A /* 183 Blolp.mp3 */; };
+		3B4B5CCB1E3830F100517F1A /* 184 Pollygol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAC1E3830F100517F1A /* 184 Pollygol.mp3 */; };
+		3B4B5CCC1E3830F100517F1A /* 185 Foifol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAD1E3830F100517F1A /* 185 Foifol.mp3 */; };
+		3B4B5CCD1E3830F100517F1A /* 186 Groipnol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAE1E3830F100517F1A /* 186 Groipnol.mp3 */; };
+		3B4B5CCE1E3830F100517F1A /* 202 B.F.C. - The Climax (Tusken Raiders Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CAF1E3830F100517F1A /* 202 B.F.C. - The Climax (Tusken Raiders Remix).mp3 */; };
+		3B4B5CCF1E3830F100517F1A /* 203 Zgivoll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB01E3830F100517F1A /* 203 Zgivoll.mp3 */; };
+		3B4B5CD01E3830F100517F1A /* 204 Tanja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB11E3830F100517F1A /* 204 Tanja.mp3 */; };
+		3B4B5CD11E3830F100517F1A /* 245 Phust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB21E3830F100517F1A /* 245 Phust.mp3 */; };
+		3B4B5CD21E3830F100517F1A /* 310 The Motorbike Track Remix 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB31E3830F100517F1A /* 310 The Motorbike Track Remix 1.mp3 */; };
+		3B4B5CD31E3830F100517F1A /* 311 The Motorbike Track Remix 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB41E3830F100517F1A /* 311 The Motorbike Track Remix 2.mp3 */; };
+		3B4B5CD51E3830F100517F1A /* tuskenraiders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB61E3830F100517F1A /* tuskenraiders.jpg */; };
+		3B4B5CD61E3830F100517F1A /* 171 24 Casiotribaltronics2 Mfm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB81E3830F100517F1A /* 171 24 Casiotribaltronics2 Mfm.mp3 */; };
+		3B4B5CD71E3830F100517F1A /* 172 30 Ms Short.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CB91E3830F100517F1A /* 172 30 Ms Short.mp3 */; };
+		3B4B5CD81E3830F100517F1A /* 173 22 Gak Bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBA1E3830F100517F1A /* 173 22 Gak Bass.mp3 */; };
+		3B4B5CD91E3830F100517F1A /* 174 18 SsbA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBB1E3830F100517F1A /* 174 18 SsbA.mp3 */; };
+		3B4B5CDA1E3830F100517F1A /* 175 35 SAW II Un Road Shimmer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBC1E3830F100517F1A /* 175 35 SAW II Un Road Shimmer.mp3 */; };
+		3B4B5CDB1E3830F100517F1A /* 176 35 SAW II Un Road Shimmer F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBD1E3830F100517F1A /* 176 35 SAW II Un Road Shimmer F.mp3 */; };
+		3B4B5CDC1E3830F100517F1A /* 177 24 Triple D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBE1E3830F100517F1A /* 177 24 Triple D.mp3 */; };
+		3B4B5CDD1E3830F100517F1A /* 178 25 grogphlange 1[braiNfLOSS2].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CBF1E3830F100517F1A /* 178 25 grogphlange 1[braiNfLOSS2].mp3 */; };
+		3B4B5CDE1E3830F100517F1A /* 179 36 Shroommdot [miCro3] [8th dimension transmission].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC01E3830F100517F1A /* 179 36 Shroommdot [miCro3] [8th dimension transmission].mp3 */; };
+		3B4B5CDF1E3830F100517F1A /* 180 1 Lmt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC11E3830F100517F1A /* 180 1 Lmt.mp3 */; };
+		3B4B5CE01E3830F100517F1A /* 181 1 Lmt B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC21E3830F100517F1A /* 181 1 Lmt B.mp3 */; };
+		3B4B5CE11E3830F100517F1A /* 182 Medievil Rave Mk2 [pre plague mix].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC31E3830F100517F1A /* 182 Medievil Rave Mk2 [pre plague mix].mp3 */; };
+		3B4B5CE21E3830F100517F1A /* 183 6 Gear Smudge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC41E3830F100517F1A /* 183 6 Gear Smudge.mp3 */; };
+		3B4B5CE31E3830F100517F1A /* 184 6 Backdrop Trigger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC51E3830F100517F1A /* 184 6 Backdrop Trigger.mp3 */; };
+		3B4B5CE41E3830F100517F1A /* 185 13 Phukup2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC61E3830F100517F1A /* 185 13 Phukup2.mp3 */; };
+		3B4B5CE51E3830F100517F1A /* 186 3 Slothscrape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC71E3830F100517F1A /* 186 3 Slothscrape.mp3 */; };
+		3B4B5CE61E3830F100517F1A /* AFX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CC81E3830F100517F1A /* AFX.jpg */; };
+		3B4B5CE81E38334700517F1A /* 312_Sea_Dweller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CE71E38334700517F1A /* 312_Sea_Dweller.mp3 */; };
+		3B4B5CEA1E38477100517F1A /* todo_list.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B5CE91E38477100517F1A /* todo_list.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1F47411E36FA8C00C9E57C /* Fancy Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fancy Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1F47441E36FA8C00C9E57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B1F47461E36FA8C00C9E57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B1F47491E36FA8C00C9E57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B1F474B1E36FA8C00C9E57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1F474E1E36FA8C00C9E57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B1F47501E36FA8C00C9E57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1F47561E37032B00C9E57C /* AudioItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioItem.swift; sourceTree = "<group>"; };
+		3B4B5CAA1E3830F100517F1A /* 182 Lobot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "182 Lobot.mp3"; sourceTree = "<group>"; };
+		3B4B5CAB1E3830F100517F1A /* 183 Blolp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "183 Blolp.mp3"; sourceTree = "<group>"; };
+		3B4B5CAC1E3830F100517F1A /* 184 Pollygol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "184 Pollygol.mp3"; sourceTree = "<group>"; };
+		3B4B5CAD1E3830F100517F1A /* 185 Foifol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "185 Foifol.mp3"; sourceTree = "<group>"; };
+		3B4B5CAE1E3830F100517F1A /* 186 Groipnol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "186 Groipnol.mp3"; sourceTree = "<group>"; };
+		3B4B5CAF1E3830F100517F1A /* 202 B.F.C. - The Climax (Tusken Raiders Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "202 B.F.C. - The Climax (Tusken Raiders Remix).mp3"; sourceTree = "<group>"; };
+		3B4B5CB01E3830F100517F1A /* 203 Zgivoll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "203 Zgivoll.mp3"; sourceTree = "<group>"; };
+		3B4B5CB11E3830F100517F1A /* 204 Tanja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "204 Tanja.mp3"; sourceTree = "<group>"; };
+		3B4B5CB21E3830F100517F1A /* 245 Phust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "245 Phust.mp3"; sourceTree = "<group>"; };
+		3B4B5CB31E3830F100517F1A /* 310 The Motorbike Track Remix 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "310 The Motorbike Track Remix 1.mp3"; sourceTree = "<group>"; };
+		3B4B5CB41E3830F100517F1A /* 311 The Motorbike Track Remix 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "311 The Motorbike Track Remix 2.mp3"; sourceTree = "<group>"; };
+		3B4B5CB51E3830F100517F1A /* 312_Sea_Dweller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 312_Sea_Dweller.mp3; sourceTree = "<group>"; };
+		3B4B5CB61E3830F100517F1A /* tuskenraiders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuskenraiders.jpg; sourceTree = "<group>"; };
+		3B4B5CB81E3830F100517F1A /* 171 24 Casiotribaltronics2 Mfm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "171 24 Casiotribaltronics2 Mfm.mp3"; sourceTree = "<group>"; };
+		3B4B5CB91E3830F100517F1A /* 172 30 Ms Short.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "172 30 Ms Short.mp3"; sourceTree = "<group>"; };
+		3B4B5CBA1E3830F100517F1A /* 173 22 Gak Bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "173 22 Gak Bass.mp3"; sourceTree = "<group>"; };
+		3B4B5CBB1E3830F100517F1A /* 174 18 SsbA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "174 18 SsbA.mp3"; sourceTree = "<group>"; };
+		3B4B5CBC1E3830F100517F1A /* 175 35 SAW II Un Road Shimmer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "175 35 SAW II Un Road Shimmer.mp3"; sourceTree = "<group>"; };
+		3B4B5CBD1E3830F100517F1A /* 176 35 SAW II Un Road Shimmer F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "176 35 SAW II Un Road Shimmer F.mp3"; sourceTree = "<group>"; };
+		3B4B5CBE1E3830F100517F1A /* 177 24 Triple D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "177 24 Triple D.mp3"; sourceTree = "<group>"; };
+		3B4B5CBF1E3830F100517F1A /* 178 25 grogphlange 1[braiNfLOSS2].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "178 25 grogphlange 1[braiNfLOSS2].mp3"; sourceTree = "<group>"; };
+		3B4B5CC01E3830F100517F1A /* 179 36 Shroommdot [miCro3] [8th dimension transmission].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "179 36 Shroommdot [miCro3] [8th dimension transmission].mp3"; sourceTree = "<group>"; };
+		3B4B5CC11E3830F100517F1A /* 180 1 Lmt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "180 1 Lmt.mp3"; sourceTree = "<group>"; };
+		3B4B5CC21E3830F100517F1A /* 181 1 Lmt B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "181 1 Lmt B.mp3"; sourceTree = "<group>"; };
+		3B4B5CC31E3830F100517F1A /* 182 Medievil Rave Mk2 [pre plague mix].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "182 Medievil Rave Mk2 [pre plague mix].mp3"; sourceTree = "<group>"; };
+		3B4B5CC41E3830F100517F1A /* 183 6 Gear Smudge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "183 6 Gear Smudge.mp3"; sourceTree = "<group>"; };
+		3B4B5CC51E3830F100517F1A /* 184 6 Backdrop Trigger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "184 6 Backdrop Trigger.mp3"; sourceTree = "<group>"; };
+		3B4B5CC61E3830F100517F1A /* 185 13 Phukup2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "185 13 Phukup2.mp3"; sourceTree = "<group>"; };
+		3B4B5CC71E3830F100517F1A /* 186 3 Slothscrape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "186 3 Slothscrape.mp3"; sourceTree = "<group>"; };
+		3B4B5CC81E3830F100517F1A /* AFX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AFX.jpg; sourceTree = "<group>"; };
+		3B4B5CE71E38334700517F1A /* 312_Sea_Dweller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 312_Sea_Dweller.mp3; path = "Fancy Audio Player/Tusken_Raiders/312_Sea_Dweller.mp3"; sourceTree = SOURCE_ROOT; };
+		3B4B5CE91E38477100517F1A /* todo_list.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = todo_list.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1F473E1E36FA8C00C9E57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1F47381E36FA8C00C9E57C = {
+			isa = PBXGroup;
+			children = (
+				3B1F47431E36FA8C00C9E57C /* Fancy Audio Player */,
+				3B1F47421E36FA8C00C9E57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1F47421E36FA8C00C9E57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1F47411E36FA8C00C9E57C /* Fancy Audio Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1F47431E36FA8C00C9E57C /* Fancy Audio Player */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B5CA91E3830F100517F1A /* Tusken_Raiders */,
+				3B4B5CB71E3830F100517F1A /* AFX */,
+				3B1F47441E36FA8C00C9E57C /* AppDelegate.swift */,
+				3B1F47461E36FA8C00C9E57C /* ViewController.swift */,
+				3B1F47481E36FA8C00C9E57C /* Main.storyboard */,
+				3B1F47561E37032B00C9E57C /* AudioItem.swift */,
+				3B1F474B1E36FA8C00C9E57C /* Assets.xcassets */,
+				3B1F474D1E36FA8C00C9E57C /* LaunchScreen.storyboard */,
+				3B1F47501E36FA8C00C9E57C /* Info.plist */,
+				3B4B5CE91E38477100517F1A /* todo_list.rtf */,
+			);
+			path = "Fancy Audio Player";
+			sourceTree = "<group>";
+		};
+		3B4B5CA91E3830F100517F1A /* Tusken_Raiders */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B5CB51E3830F100517F1A /* 312_Sea_Dweller.mp3 */,
+				3B4B5CAA1E3830F100517F1A /* 182 Lobot.mp3 */,
+				3B4B5CAB1E3830F100517F1A /* 183 Blolp.mp3 */,
+				3B4B5CAC1E3830F100517F1A /* 184 Pollygol.mp3 */,
+				3B4B5CAD1E3830F100517F1A /* 185 Foifol.mp3 */,
+				3B4B5CAE1E3830F100517F1A /* 186 Groipnol.mp3 */,
+				3B4B5CAF1E3830F100517F1A /* 202 B.F.C. - The Climax (Tusken Raiders Remix).mp3 */,
+				3B4B5CB01E3830F100517F1A /* 203 Zgivoll.mp3 */,
+				3B4B5CB11E3830F100517F1A /* 204 Tanja.mp3 */,
+				3B4B5CB21E3830F100517F1A /* 245 Phust.mp3 */,
+				3B4B5CB31E3830F100517F1A /* 310 The Motorbike Track Remix 1.mp3 */,
+				3B4B5CB41E3830F100517F1A /* 311 The Motorbike Track Remix 2.mp3 */,
+				3B4B5CB61E3830F100517F1A /* tuskenraiders.jpg */,
+			);
+			path = Tusken_Raiders;
+			sourceTree = "<group>";
+		};
+		3B4B5CB71E3830F100517F1A /* AFX */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B5CE71E38334700517F1A /* 312_Sea_Dweller.mp3 */,
+				3B4B5CB81E3830F100517F1A /* 171 24 Casiotribaltronics2 Mfm.mp3 */,
+				3B4B5CB91E3830F100517F1A /* 172 30 Ms Short.mp3 */,
+				3B4B5CBA1E3830F100517F1A /* 173 22 Gak Bass.mp3 */,
+				3B4B5CBB1E3830F100517F1A /* 174 18 SsbA.mp3 */,
+				3B4B5CBC1E3830F100517F1A /* 175 35 SAW II Un Road Shimmer.mp3 */,
+				3B4B5CBD1E3830F100517F1A /* 176 35 SAW II Un Road Shimmer F.mp3 */,
+				3B4B5CBE1E3830F100517F1A /* 177 24 Triple D.mp3 */,
+				3B4B5CBF1E3830F100517F1A /* 178 25 grogphlange 1[braiNfLOSS2].mp3 */,
+				3B4B5CC01E3830F100517F1A /* 179 36 Shroommdot [miCro3] [8th dimension transmission].mp3 */,
+				3B4B5CC11E3830F100517F1A /* 180 1 Lmt.mp3 */,
+				3B4B5CC21E3830F100517F1A /* 181 1 Lmt B.mp3 */,
+				3B4B5CC31E3830F100517F1A /* 182 Medievil Rave Mk2 [pre plague mix].mp3 */,
+				3B4B5CC41E3830F100517F1A /* 183 6 Gear Smudge.mp3 */,
+				3B4B5CC51E3830F100517F1A /* 184 6 Backdrop Trigger.mp3 */,
+				3B4B5CC61E3830F100517F1A /* 185 13 Phukup2.mp3 */,
+				3B4B5CC71E3830F100517F1A /* 186 3 Slothscrape.mp3 */,
+				3B4B5CC81E3830F100517F1A /* AFX.jpg */,
+			);
+			path = AFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1F47401E36FA8C00C9E57C /* Fancy Audio Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1F47531E36FA8C00C9E57C /* Build configuration list for PBXNativeTarget "Fancy Audio Player" */;
+			buildPhases = (
+				3B1F473D1E36FA8C00C9E57C /* Sources */,
+				3B1F473E1E36FA8C00C9E57C /* Frameworks */,
+				3B1F473F1E36FA8C00C9E57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fancy Audio Player";
+			productName = "Fancy Audio Player";
+			productReference = 3B1F47411E36FA8C00C9E57C /* Fancy Audio Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1F47391E36FA8C00C9E57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Colin Cherot";
+				TargetAttributes = {
+					3B1F47401E36FA8C00C9E57C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J26DT4NH4T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B1F473C1E36FA8C00C9E57C /* Build configuration list for PBXProject "Fancy Audio Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1F47381E36FA8C00C9E57C;
+			productRefGroup = 3B1F47421E36FA8C00C9E57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1F47401E36FA8C00C9E57C /* Fancy Audio Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1F473F1E36FA8C00C9E57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1F474F1E36FA8C00C9E57C /* LaunchScreen.storyboard in Resources */,
+				3B4B5CCF1E3830F100517F1A /* 203 Zgivoll.mp3 in Resources */,
+				3B4B5CD11E3830F100517F1A /* 245 Phust.mp3 in Resources */,
+				3B4B5CCC1E3830F100517F1A /* 185 Foifol.mp3 in Resources */,
+				3B4B5CDA1E3830F100517F1A /* 175 35 SAW II Un Road Shimmer.mp3 in Resources */,
+				3B4B5CE11E3830F100517F1A /* 182 Medievil Rave Mk2 [pre plague mix].mp3 in Resources */,
+				3B4B5CEA1E38477100517F1A /* todo_list.rtf in Resources */,
+				3B4B5CD51E3830F100517F1A /* tuskenraiders.jpg in Resources */,
+				3B4B5CE01E3830F100517F1A /* 181 1 Lmt B.mp3 in Resources */,
+				3B4B5CDB1E3830F100517F1A /* 176 35 SAW II Un Road Shimmer F.mp3 in Resources */,
+				3B4B5CDE1E3830F100517F1A /* 179 36 Shroommdot [miCro3] [8th dimension transmission].mp3 in Resources */,
+				3B1F474C1E36FA8C00C9E57C /* Assets.xcassets in Resources */,
+				3B4B5CD21E3830F100517F1A /* 310 The Motorbike Track Remix 1.mp3 in Resources */,
+				3B4B5CDF1E3830F100517F1A /* 180 1 Lmt.mp3 in Resources */,
+				3B4B5CE51E3830F100517F1A /* 186 3 Slothscrape.mp3 in Resources */,
+				3B4B5CD91E3830F100517F1A /* 174 18 SsbA.mp3 in Resources */,
+				3B4B5CD61E3830F100517F1A /* 171 24 Casiotribaltronics2 Mfm.mp3 in Resources */,
+				3B4B5CE41E3830F100517F1A /* 185 13 Phukup2.mp3 in Resources */,
+				3B4B5CDC1E3830F100517F1A /* 177 24 Triple D.mp3 in Resources */,
+				3B4B5CD81E3830F100517F1A /* 173 22 Gak Bass.mp3 in Resources */,
+				3B4B5CCE1E3830F100517F1A /* 202 B.F.C. - The Climax (Tusken Raiders Remix).mp3 in Resources */,
+				3B4B5CD01E3830F100517F1A /* 204 Tanja.mp3 in Resources */,
+				3B4B5CD71E3830F100517F1A /* 172 30 Ms Short.mp3 in Resources */,
+				3B4B5CC91E3830F100517F1A /* 182 Lobot.mp3 in Resources */,
+				3B4B5CCB1E3830F100517F1A /* 184 Pollygol.mp3 in Resources */,
+				3B1F474A1E36FA8C00C9E57C /* Main.storyboard in Resources */,
+				3B4B5CE31E3830F100517F1A /* 184 6 Backdrop Trigger.mp3 in Resources */,
+				3B4B5CD31E3830F100517F1A /* 311 The Motorbike Track Remix 2.mp3 in Resources */,
+				3B4B5CE61E3830F100517F1A /* AFX.jpg in Resources */,
+				3B4B5CCA1E3830F100517F1A /* 183 Blolp.mp3 in Resources */,
+				3B4B5CE81E38334700517F1A /* 312_Sea_Dweller.mp3 in Resources */,
+				3B4B5CCD1E3830F100517F1A /* 186 Groipnol.mp3 in Resources */,
+				3B4B5CDD1E3830F100517F1A /* 178 25 grogphlange 1[braiNfLOSS2].mp3 in Resources */,
+				3B4B5CE21E3830F100517F1A /* 183 6 Gear Smudge.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1F473D1E36FA8C00C9E57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1F47571E37032B00C9E57C /* AudioItem.swift in Sources */,
+				3B1F47471E36FA8C00C9E57C /* ViewController.swift in Sources */,
+				3B1F47451E36FA8C00C9E57C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B1F47481E36FA8C00C9E57C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1F47491E36FA8C00C9E57C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1F474D1E36FA8C00C9E57C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1F474E1E36FA8C00C9E57C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1F47511E36FA8C00C9E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1F47521E36FA8C00C9E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1F47541E36FA8C00C9E57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J26DT4NH4T;
+				INFOPLIST_FILE = "Fancy Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.ccherot.Fancy-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B1F47551E36FA8C00C9E57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J26DT4NH4T;
+				INFOPLIST_FILE = "Fancy Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.me.ccherot.Fancy-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1F473C1E36FA8C00C9E57C /* Build configuration list for PBXProject "Fancy Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1F47511E36FA8C00C9E57C /* Debug */,
+				3B1F47521E36FA8C00C9E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1F47531E36FA8C00C9E57C /* Build configuration list for PBXNativeTarget "Fancy Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1F47541E36FA8C00C9E57C /* Debug */,
+				3B1F47551E36FA8C00C9E57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1F47391E36FA8C00C9E57C /* Project object */;
+}
