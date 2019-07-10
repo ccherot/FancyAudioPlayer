@@ -135,6 +135,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var progressSlider: UISlider!
     
+    @IBOutlet weak var trackTitle: UILabel!
+    
+    
+    
     @IBAction func progressSliderMoved(_ sender: Any) {
         
         //translate progressSlider.value to a time in the audio file
@@ -221,8 +225,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     func updateAudioPath()
     {
         
-        print("updateAudioPath: current AudioItem is \(arrSongs[currentPlaylistIndex]) and resourceName is \(arrSongs[currentPlaylistIndex].resourceName)" )
-        print("updateAudioPath: fileType is \(arrSongs[currentPlaylistIndex].fileType)")
+        print("updateAudioPath: current AudioItem is \(arrSongs[currentPlaylistIndex]) and resourceName is \(String(describing: arrSongs[currentPlaylistIndex].resourceName))" )
+        print("updateAudioPath: fileType is \(String(describing: arrSongs[currentPlaylistIndex].fileType))")
         
         let resource: String? = arrSongs[currentPlaylistIndex].resourceName
         let type: String? = "mp3" //arrSongs[currentPlaylistIndex].fileType
@@ -231,9 +235,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         audioPath = Bundle.main.path(forResource: resource, ofType: type)
         
-        print("updateAudioPath: audioPath is \(audioPath)")
+        print("updateAudioPath: audioPath is \(audioPath ?? "no path specified")")
         
         self.title = arrSongs[currentPlaylistIndex].resourceName
+        
+        trackTitle.text = self.title
+        
+        navBar.titleTextAttributes
         
         createPlayer()
     }
